@@ -1,0 +1,25 @@
+.close {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid var(--link-bcg-color);
+    background-color: var(--alternative-text-color);
+    fill: var(--logo-text-color);
+    cursor: pointer;
+    transition: fill 250ms $transition,
+        border-color 250ms $transition;
+
+    &:hover {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+    }
+    &__mobile {
+        border-color: transparent;
+    }
+}

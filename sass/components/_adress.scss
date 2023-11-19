@@ -1,0 +1,36 @@
+.adress {
+// text-align: center;
+
+  &__item {
+    margin-bottom: 8px;
+  }
+
+  &__location {
+    color: var(--alternative-text-color);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+
+  &__connection {
+    color: var(--contacts-transparent-text);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+}
