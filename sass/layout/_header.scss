@@ -1,5 +1,8 @@
 .header {
   border-bottom: 1px solid #ececec;
+background: rgb(0, 0, 0);
+
+  background: linear-gradient(98deg, rgba(0, 0, 0, 1) 35%, rgba(255, 0, 0, 1) 83%);
 
   &__container {
     display: flex;
